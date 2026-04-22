@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "River";
+    src: url(River\ Adventurer.ttf);
+}
+
 body{
     background-color: bisque;
+}
+
+header{
+    color: red;
+    font-family: River;
+    border-style:solid;
+    border-width: 20px;
+    border-radius: 10px;
+    border-left: 20px;
+    border-right: 20px;
+    border-style: groove;
+    border-color: orangered;
+    border-width: 40px;
+}
+
+h1{
+    font-size:100px;
+    text-align: center;
+}   
+
+p{
+    flex: 1;
+    justify-content:center;
 }
