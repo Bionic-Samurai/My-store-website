@@ -1,31 +1,27 @@
-@font-face {
-    font-family: "River";
-    src: url(River\ Adventurer.ttf);
-}
-
-body{
-    background-color: bisque;
-}
-
-header{
-    color: red;
-    font-family: River;
-    border-style:solid;
-    border-width: 20px;
-    border-radius: 10px;
-    border-left: 20px;
-    border-right: 20px;
-    border-style: groove;
-    border-color: orangered;
-    border-width: 40px;
-}
-
-h1{
-    font-size:100px;
-    text-align: center;
-}   
-
-p{
-    flex: 1;
-    justify-content:center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header><h1>Nfts are being sold here</h1></header>
+    <div style="display: flex; align-items: flex-start;">
+    <p>
+    <img src="hat.png" alt="" width="400">
+    This is one of our best-selling items. It is our prestigous hat, augmentated with the beautiful sight of chopper from two piece.
+    <img src="mug.png" alt="" width="400">
+    tuff mug
+    <img src="shirt.png" alt="" width="400">
+    shirt bruh
+    <img src="sweatshirt.png" alt="" width="400">
+    sweetshirt
+    <img src="water.png" alt="" width="300">
+    Water botl
+    </p>
+    </div>
+   
+</body>
+</html>
